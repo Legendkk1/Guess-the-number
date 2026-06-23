@@ -2,8 +2,8 @@
 
 
 a = Analysis(
-    ['c:\\Users\\phila\\OneDrive\\Web Design 1\\My first Website\\BOOT strap\\KK-26\\Guess the Number\\guessNum.py'],
-    pathex=[],
+    ['guessNum.py'],
+    pathex=['c:\\Users\\phila\\OneDrive\\Documents\\GitHub\\Guess-the-number'],
     binaries=[],
     datas=[],
     hiddenimports=[],
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['c:\\Users\\phila\\OneDrive\\Web Design 1\\My first Website\\BOOT strap\\KK-26\\Guess the Number\\app.ico'],
+    icon=['app.ico'],
 )
